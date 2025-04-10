@@ -1,0 +1,60 @@
+.spb-banner {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 60px 20px;
+    color: #fff;
+    position: relative;
+}
+
+.spb-banner-content {
+    padding: 20px;
+    max-width: 700px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.spb-banner-title {
+    font-size: 44px;
+    margin: 30px 0;
+}
+
+.spb-banner-title a, .spb-banner-title a:hover {
+    color: #fff !important;
+    text-decoration: none;
+}
+
+.spb-banner-category {
+    font-size: 16px;
+    margin-bottom: 5px;
+    border-top: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+    padding: 30px 0 20px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.spb-banner-date {
+    font-size: 16px;
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+    padding: 20px 0 30px;
+    width: 60%;
+    margin: 0 auto;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.spb-banner-title {
+        font-size: 36px;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+	.spb-banner-title {
+        font-size: 28px;
+    }
+
+}
